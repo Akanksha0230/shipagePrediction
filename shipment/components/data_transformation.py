@@ -4,7 +4,7 @@ import sys
 from pandas import DataFrame
 import numpy as np
 import pandas as pd
-from category_encoders.binary import BinaryEncoder
+from category_encoders.binary import BinaryEncoder # type: ignore
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from shipment.entity.config_entity import DataTransformationConfig
