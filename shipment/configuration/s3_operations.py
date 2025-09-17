@@ -284,6 +284,5 @@ class S3Operation:
             raise shippingException(e, sys) from e
         
         
-        
 
 
